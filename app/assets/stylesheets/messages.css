@@ -1,0 +1,61 @@
+/* 全体の設定 */
+.wrapper {
+  display: flex;
+}
+/* サイドバーの設定 */
+.side-bar {
+  width: 300px;
+  height: 100vh;
+  background-color: #253141;
+}
+.side-header {
+  height: 100px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name-btn a {
+  text-decoration: none;
+  color: #fafafa;
+  font-size: 16px;
+}
+.create-btn a {
+  text-decoration: none;
+  color: deepskyblue;
+  font-size: 10px;
+  padding: 14px;
+  border: solid 1px lightblue;
+}
+.side-rooms {
+  background-color: #2f3e51;
+  height: calc(100vh - 100px);
+  padding: 0 20px;
+  overflow: scroll;
+}
+.room {
+  padding: 20px 0 40px;
+}
+.room a {
+  text-decoration: none;
+  color: white;
+}
+/* メインの設定 */
+.main {
+  background-color: #ffffff;
+  width: calc(100vw - 300px);
+}
+.main-header {
+  height: 100px;
+  padding: 0 40px;
+}
+.main-chat {
+  height: calc(100vh - 100px - 90px);
+  background-color: #fafafa;
+  padding: 46px 40px 0;
+}
+.main-form {
+  height: 90px;
+  background-color: #DDDDDD;
+  padding: 20px 40px;
+}
