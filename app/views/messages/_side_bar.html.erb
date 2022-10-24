@@ -7,15 +7,11 @@
   </div>
 </div>
 <div class="side-rooms">
-  <div class="room">
-    <div class="room-name">
-    <% current_user.rooms.each do |room|  %>
-      <%= link_to room.name room_path %>
+  <% current_user.rooms.each do |room| %>
+    <div class="room">
+      <div class="room-name">
+        <a href="#"><%= room.name %></a>
+      </div>
     </div>
-  </div>
-  <div class="room">
-    <div class="room-name">
-      <a href="#">techroom2</a>
-    </div>
-  </div>
+  <% end  %>
 </div>
