@@ -129,3 +129,6 @@
   margin-left: 15px;
   padding: 0 20px;
 }
+.field_with_errors {
+  display: contents;
+}
